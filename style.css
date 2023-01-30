@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&display=swap');
+*{
+    padding: 0;
+    margin:0;
+}
+nav{
+    background-color: purple;
+    color:aliceblue;
+    height: 55px;
+    font-size: 28px;
+    display: flex;
+    padding: 0 12px;
+    font-family: 'Oswald';
+}
+nav ul{
+    list-style-type: none; 
+}
+.gamecontainer{
+    
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,10vw);
+    grid-template-rows: repeat(3,10vw);
+    font-family: "Oswald";
+}
+.box{
+    border: 3px solid black;
+    font-size: 8vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.box:hover{
+    background-color: rgb(215, 211, 220);
+}
+.gameinfo{
+    padding: 0 34px;
+    font-family: 'Baloo Bhaina 2';
+}
+.imgbox img{
+    display: none;
+}
+.bt-0{
+    border-top: 0;
+}
+.bl-0{
+    border-left: 0;
+}
+.br-0{
+    border-right: 0;
+}
+.bb-0{
+    border-bottom: 0;
+}
