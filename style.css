@@ -43,9 +43,11 @@ nav ul{
 .gameinfo{
     padding: 0 34px;
     font-family: 'Baloo Bhaina 2';
+    font-size: 30px;
 }
 .imgbox img{
-    display: none;
+    width:0 ;
+    transition: width is ease-in-out;
 }
 .bt-0{
     border-top: 0;
@@ -58,4 +60,11 @@ nav ul{
 }
 .bb-0{
     border-bottom: 0;
+}
+#reset{
+    margin: 0 26px;
+    padding: 6px 6px;
+    background-color: rgb(153, 153, 225);
+    cursor: pointer;
+    font-weight: bolder;
 }
